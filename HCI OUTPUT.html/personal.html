@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE | BLOG</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="header">   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="personal.html"><img src="my_logo-removebg-preview.png" width="350px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="personal.html">HOME</a></li>
+                    <li><a href="index.html">EDUCATION</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                    <li><a href="hobbies.html">HOBBIES</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1><font color = "Coral">Hello! I am </font> MIA ANGELA<br></h1>
+                <h1>BAAT MADDARA<br></h1>
+                <p>An aspiring web-programmer student. <br> who know nothing about coding but still kept on pursuing. </p>
+                <a href="index.html" class="btn">Explore Now &#10132;</a>
+            </div><br><br><br>
+            <div class="col-3">
+                <img src="me.png" legnth = "700px" width = "700px">
+            </div>    
+        </div>
+    </div>
+</div>
+
+<!------ footer -------> 
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>ABOUT ME</h3>
+                    <p>Was born on December 24, 1999.</p>
+                    <p>Took up BS Architecture before taking</p> <p> BS Computer Science</p>
+                    <p>Love to read and write stories</p>
+                    <p>Love animals specially dogs</p>
+                
+                </div>
+                <div class="footer-col-2">
+                    <h3>HOBBIES</h3>
+                    <ul>
+                        <li>Playing Basketball</li>
+                        <li>Riding Waves</li>
+                        <li>Paintings and sketchings</li>
+                        <li>Extreme actvities</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>MY SOCIALS</h3>
+                    <ul>
+                        <li>Facebook <a href="facebook.txt"></a></li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022- Personal website</p>
+        </div>
+    </div>
+<!------ js for toggle menu ------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+    
+</body>
+</html>
+
+
+
+
